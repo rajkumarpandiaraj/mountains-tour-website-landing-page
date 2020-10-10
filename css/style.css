@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    font-size: 18px;
+    line-height: 1.4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    background: url('../img/pexels-stephan-seeber-1110489_2.jpg') no-repeat center / cover;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    width: 100%;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.nav-item{
+    margin: 0 0.8rem;
+}
+.nav-item:hover{
+    cursor: pointer;
+}
+.fa-search{
+    margin-top: 4px;
+    font-size: 1rem;
+}
+.showcase{
+    text-align: center;
+    padding-top: 3rem;
+}
+.peeky{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -1rem;
+}
+.left-line, .right-line{
+    width: 150px;
+    height: 1px;
+    background-color: #fff;
+}
+.peeky-text{
+    margin: 0 0.8rem;
+    text-transform: uppercase;
+}
+.showcase h1{
+    font-size: 10rem;
+    font-weight: normal;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+.btn{
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0.7rem 1.9rem;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 2px solid #fff;
+    margin-top: 0.5rem;
+}
+.showcase-social{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+i{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+i:hover{
+    cursor: pointer;
+}
+.foot{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foot .top-line{
+    width: 120px;
+    height: 1px;
+    background-color: #fff;
+}
+.foot-text{
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin-top: 0.5rem;
+}
